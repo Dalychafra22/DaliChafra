@@ -1,0 +1,78 @@
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* About Section */
+#about {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
